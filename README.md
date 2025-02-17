@@ -1,9 +1,14 @@
 Compilation :<br>
 windows : <br>
-installer mingw :<br>
-https://www.youtube.com/watch?v=FEeFG9OR-QU <br> 
-inclure SDL2 : <br>
-https://lazyfoo.net/tutorials/SDL/01_hello_SDL/windows/mingw/index.php <br>
+installer wsl puis suivre instructions pour linux :<br>
+[tutoriel](https://www.youtube.com/watch?v=74JHjVLMgqU) <br> 
 Linux : <br>
 installer SDL2 et gcc <br>
-``g++ cube.cpp -o cube -lSDL2``
+```sudo apt update
+  sudo apt install sdl2-dev gcc
+  git clone https://github.com/ddezORTEP/pb3d
+  cd pb3d
+```
+
+  compilation <br>
+``g++ cube.cpp -o cube -lSDL2`` 
